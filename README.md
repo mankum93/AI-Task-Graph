@@ -68,6 +68,19 @@ The framework assumes that “dependency order” is **not enough**. Healthy exe
 
 ---
 
+## Start here
+
+If you want to try the framework quickly instead of reading everything first, start here:
+
+- [Start here index](start-here/README.md)
+- [Quickstart](start-here/quickstart.md)
+- [First task graph prompt](start-here/first-task-graph-prompt.md)
+- [Choosing a unit of work](start-here/choosing-a-unit-of-work.md)
+
+This is the fastest path from “I understand the idea” to “I can use this on a real task.”
+
+---
+
 ## What the framework can do
 
 - Build task graphs for writing, coding, research, diagram-heavy, and mixed-mode work
@@ -191,6 +204,11 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 │       ├── README.md
 │       ├── core_packet.md
 │       └── domain_profiles.md
+├── start-here/
+│   ├── README.md
+│   ├── quickstart.md
+│   ├── first-task-graph-prompt.md
+│   └── choosing-a-unit-of-work.md
 └── wiki/
     ├── README.md
     ├── 01-graph-anatomy-by-domain.md
