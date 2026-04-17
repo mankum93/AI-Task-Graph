@@ -140,9 +140,23 @@ The framework supports worker fan-out, but only after:
 
 ---
 
+## Explore a canonical example
+
+The repo now includes a real end-to-end example pack that shows how the framework would be applied to a quality-sensitive long-form project.
+
+- [Examples index](examples/README.md)
+- [Technical book canonical example](examples/technical-book-canonical/README.md)
+- [Generated graph](examples/technical-book-canonical/generated-graph.md)
+- [Pilot sample behavior](examples/technical-book-canonical/pilot-sample.md)
+- [Scale readiness review](examples/technical-book-canonical/scale-readiness-review.md)
+- [Worker prompts](examples/technical-book-canonical/worker-prompts.md)
+- [Final convergence](examples/technical-book-canonical/final-convergence.md)
+
+---
+
 ## Explore the wiki
 
-The repo now includes a walkthrough-style wiki showing what graphs get generated for different domains and what those graphs do step by step.
+The repo also includes a walkthrough-style wiki showing what graphs get generated for different domains and what those graphs do step by step.
 
 - [Wiki home](wiki/README.md)
 - [Graph anatomy by domain](wiki/01-graph-anatomy-by-domain.md)
@@ -162,6 +176,16 @@ The repo now includes a walkthrough-style wiki showing what graphs get generated
 │   ├── hero-task-graph.svg
 │   ├── task-graph-flow.svg
 │   └── task-graph-node-system.svg
+├── examples/
+│   ├── README.md
+│   └── technical-book-canonical/
+│       ├── README.md
+│       ├── task.md
+│       ├── generated-graph.md
+│       ├── pilot-sample.md
+│       ├── scale-readiness-review.md
+│       ├── worker-prompts.md
+│       └── final-convergence.md
 ├── packet/
 │   └── v08/
 │       ├── README.md
