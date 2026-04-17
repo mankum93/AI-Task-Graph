@@ -7,7 +7,8 @@ If you are new to the framework, follow this order:
 1. [`quickstart.md`](quickstart.md)
 2. [`first-task-graph-prompt.md`](first-task-graph-prompt.md)
 3. [`choosing-a-unit-of-work.md`](choosing-a-unit-of-work.md)
-4. then inspect the [canonical example](../examples/technical-book-canonical/README.md)
+4. inspect the reusable [`../prompts/`](../prompts/README.md) library
+5. then inspect the [canonical example](../examples/technical-book-canonical/README.md)
 
 ## What this section is for
 
@@ -28,10 +29,12 @@ If you want the shortest path:
 - copy the prompt from [`first-task-graph-prompt.md`](first-task-graph-prompt.md)
 - attach the packet or the relevant packet surfaces
 - ask the AI to generate a task graph for your real task
+- then use the prompts in [`../prompts/`](../prompts/README.md) as the graph advances
 
 ## When to inspect more
 
 Once you have a generated graph, use:
 - the [packet](../packet/v08/README.md) for doctrine
 - the [examples](../examples/README.md) for operational patterns
+- the [prompts](../prompts/README.md) for reusable execution assets
 - the [wiki](../wiki/README.md) for deeper understanding of why graph shapes differ by domain
