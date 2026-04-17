@@ -1,0 +1,63 @@
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#08111F"/>
+    <stop offset="1" stop-color="#0E213B"/>
+  </linearGradient>
+  <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#67E8F9"/>
+    <stop offset="1" stop-color="#3B82F6"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#C084FC"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#020617" flood-opacity="0.35"/></filter>
+</defs>
+<rect width="1600" height="760" rx="28" fill="url(#bg2)"/>
+<text x="80" y="90" fill="white" font-size="42" font-family="Inter, Segoe UI, Arial" font-weight="700">Execution flow: from ambiguous task to converged result</text>
+<text x="80" y="130" fill="#A8BFE3" font-size="22" font-family="Inter, Segoe UI, Arial">The graph chooses a stable unit, calibrates one sample, and only then expands into parallel execution and merge discipline.</text>
+<g filter="url(#s)">
+  <rect x="84" y="208" width="210" height="108" rx="20" fill="#0E1B31" stroke="#234D74"/>
+  <rect x="350" y="208" width="230" height="108" rx="20" fill="#0E1B31" stroke="#234D74"/>
+  <rect x="638" y="208" width="250" height="108" rx="20" fill="#0E1B31" stroke="#234D74"/>
+  <rect x="948" y="208" width="248" height="108" rx="20" fill="#0E1B31" stroke="#234D74"/>
+  <rect x="1252" y="208" width="258" height="108" rx="20" fill="#0E1B31" stroke="#234D74"/>
+</g>
+<text x="118" y="246" fill="#E6F0FF" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="700">Task typing</text>
+<text x="118" y="278" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">Writing, coding,</text>
+<text x="118" y="304" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">research, visual, mixed</text>
+<text x="384" y="246" fill="#E6F0FF" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="700">Fundamental unit</text>
+<text x="384" y="278" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">Chapter, feature, proof,</text>
+<text x="384" y="304" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">scene, decision memo</text>
+<text x="672" y="246" fill="#E6F0FF" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="700">Pilot sample</text>
+<text x="672" y="278" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">One representative unit</text>
+<text x="672" y="304" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">to prove the quality shape</text>
+<text x="982" y="246" fill="#E6F0FF" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="700">Scale readiness</text>
+<text x="982" y="278" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">Review if the sample is</text>
+<text x="982" y="304" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">safe to fan out</text>
+<text x="1286" y="246" fill="#E6F0FF" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="700">Parallel execution</text>
+<text x="1286" y="278" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">Workers run ready nodes</text>
+<text x="1286" y="304" fill="#AFC5E8" font-size="19" font-family="Inter, Segoe UI, Arial">under shared standards</text>
+<path d="M294 262H350" stroke="url(#aqua)" stroke-width="8" stroke-linecap="round"/>
+<path d="M580 262H638" stroke="url(#aqua)" stroke-width="8" stroke-linecap="round"/>
+<path d="M888 262H948" stroke="url(#aqua)" stroke-width="8" stroke-linecap="round"/>
+<path d="M1196 262H1252" stroke="url(#aqua)" stroke-width="8" stroke-linecap="round"/>
+<g filter="url(#s)">
+  <rect x="180" y="438" width="290" height="186" rx="24" fill="#111C33" stroke="#2B4D76"/>
+  <rect x="548" y="438" width="290" height="186" rx="24" fill="#111C33" stroke="#2B4D76"/>
+  <rect x="916" y="438" width="504" height="186" rx="24" fill="#111C33" stroke="#2B4D76"/>
+</g>
+<text x="214" y="486" fill="url(#violet)" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">Review nodes</text>
+<text x="214" y="526" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">QA_GATE</text>
+<text x="214" y="556" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">DEEP_RESEARCH_AUDIT</text>
+<text x="214" y="586" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">MERGE_REVIEW / HARMONIZATION</text>
+<text x="582" y="486" fill="url(#violet)" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">Writing-aware QA</text>
+<text x="582" y="526" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">Detemplatization</text>
+<text x="582" y="556" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">Integration vs addendum</text>
+<text x="582" y="586" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">Capability drift / coherence</text>
+<text x="950" y="486" fill="url(#violet)" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">Convergence logic</text>
+<text x="950" y="526" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">Patch locally when issues are small</text>
+<text x="950" y="556" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">Refresh the graph when the problem is structural</text>
+<text x="950" y="586" fill="#DDE8FF" font-size="21" font-family="Inter, Segoe UI, Arial">Restart from a smaller calibrated unit when scale degrades quality</text>
+</svg>
