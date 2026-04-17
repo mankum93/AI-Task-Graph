@@ -140,6 +140,19 @@ The framework supports worker fan-out, but only after:
 
 ---
 
+## Explore the wiki
+
+The repo now includes a walkthrough-style wiki showing what graphs get generated for different domains and what those graphs do step by step.
+
+- [Wiki home](wiki/README.md)
+- [Graph anatomy by domain](wiki/01-graph-anatomy-by-domain.md)
+- [Example: technical book project](wiki/02-example-technical-book-project.md)
+- [Example: coding feature delivery](wiki/03-example-coding-feature-delivery.md)
+- [Example: research analysis and proof work](wiki/04-example-research-analysis-and-proof.md)
+- [Parallel execution, merge, and recovery](wiki/05-parallel-execution-and-recovery.md)
+
+---
+
 ## Repository layout
 
 ```text
@@ -149,11 +162,18 @@ The framework supports worker fan-out, but only after:
 │   ├── hero-task-graph.svg
 │   ├── task-graph-flow.svg
 │   └── task-graph-node-system.svg
-└── packet/
-    └── v08/
-        ├── README.md
-        ├── core_packet.md
-        └── domain_profiles.md
+├── packet/
+│   └── v08/
+│       ├── README.md
+│       ├── core_packet.md
+│       └── domain_profiles.md
+└── wiki/
+    ├── README.md
+    ├── 01-graph-anatomy-by-domain.md
+    ├── 02-example-technical-book-project.md
+    ├── 03-example-coding-feature-delivery.md
+    ├── 04-example-research-analysis-and-proof.md
+    └── 05-parallel-execution-and-recovery.md
 ```
 
 ---
