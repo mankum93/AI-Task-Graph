@@ -1,1 +1,58 @@
-<svg width='1152pt' height='241pt' viewBox='0.00 0.00 1152.00 240.72' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g id='graph0' class='graph' transform='scale(0.46 0.46) rotate(0) translate(25.2 495.2)'><title>G</title><polygon fill='#f7faff' stroke='transparent' points='-25.2,25.2 -25.2,-495.2 2465.2,-495.2 2465.2,25.2 -25.2,25.2'/><text text-anchor='start' x='245.5' y='-444.6' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='28.00'>Standards precedence stack</text><text text-anchor='start' x='8' y='-427.8' font-family='Inter,Segoe UI,Arial' font-size='14.00'>Project&#45;specific doctrine outranks the packet. The packet then governs execution mechanics, review placement, and graph refresh.</text><g id='edge1' class='edge'><title>s1&#45;&gt;s2</title><path fill='none' stroke='#8aa2c9' stroke-width='1.8' d='M396,-375.72C396,-375.72 396,-334.12 396,-334.12'/><polygon fill='#8aa2c9' stroke='#8aa2c9' stroke-width='1.8' points='398.8,-334.12 396,-326.12 393.2,-334.12 398.8,-334.12'/></g><g id='edge2' class='edge'><title>s2&#45;&gt;s3</title><path fill='none' stroke='#8aa2c9' stroke-width='1.8' d='M396,-281.72C396,-281.72 396,-240.12 396,-240.12'/><polygon fill='#8aa2c9' stroke='#8aa2c9' stroke-width='1.8' points='398.8,-240.12 396,-232.12 393.2,-240.12 398.8,-240.12'/></g><g id='edge3' class='edge'><title>s3&#45;&gt;s4</title><path fill='none' stroke='#8aa2c9' stroke-width='1.8' d='M396,-187.72C396,-187.72 396,-146.12 396,-146.12'/><polygon fill='#8aa2c9' stroke='#8aa2c9' stroke-width='1.8' points='398.8,-146.12 396,-138.12 393.2,-146.12 398.8,-146.12'/></g><g id='edge4' class='edge'><title>s4&#45;&gt;s5</title><path fill='none' stroke='#8aa2c9' stroke-width='1.8' d='M396,-93.97C396,-65.9 396,-21 396,-21 396,-21 815.99,-21 815.99,-21'/><polygon fill='#8aa2c9' stroke='#8aa2c9' stroke-width='1.8' points='815.99,-23.8 823.99,-21 815.99,-18.2 815.99,-23.8'/></g><g id='node1' class='node'><title>s1</title><path fill='#f8fbff' stroke='#c8d7ee' stroke-width='1.4' d='M780,-420C780,-420 12,-420 12,-420 6,-420 0,-414 0,-408 0,-408 0,-388 0,-388 0,-382 6,-376 12,-376 12,-376 780,-376 780,-376 786,-376 792,-382 792,-388 792,-388 792,-408 792,-408 792,-414 786,-420 780,-420'/><text text-anchor='start' x='256' y='-400.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#0f274f'>1. Project handoff or canonical build spec</text><text text-anchor='start' x='257.5' y='-388.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#0f274f'>The actual product, book, or codebase doctrine.</text></g><g id='node2' class='node'><title>s2</title><path fill='#f8fbff' stroke='#c8d7ee' stroke-width='1.4' d='M780,-326C780,-326 12,-326 12,-326 6,-326 0,-320 0,-314 0,-314 0,-294 0,-294 0,-288 6,-282 12,-282 12,-282 780,-282 780,-282 786,-282 792,-288 792,-294 792,-294 792,-314 792,-314 792,-320 786,-326 780,-326'/><text text-anchor='start' x='208' y='-306.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#0f274f'>2. Local chapter, module, subsystem, or batch contract</text><text text-anchor='start' x='297.5' y='-294.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#0f274f'>Refines the current execution slice.</text></g><g id='node3' class='node'><title>s3</title><path fill='#fbfaff' stroke='#d5c8fa' stroke-width='1.4' d='M780,-232C780,-232 12,-232 12,-232 6,-232 0,-226 0,-220 0,-220 0,-200 0,-200 0,-194 6,-188 12,-188 12,-188 780,-188 780,-188 786,-188 792,-194 792,-200 792,-200 792,-220 792,-220 792,-226 786,-232 780,-232'/><text text-anchor='start' x='338' y='-212.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#372160'>3. Domain profile</text><text text-anchor='start' x='173' y='-200.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#372160'>Adapts the graph to writing, coding, proof, research, or another class of work.</text></g><g id='node4' class='node'><title>s4</title><path fill='#fffdf6' stroke='#f8dca5' stroke-width='1.4' d='M780,-138C780,-138 12,-138 12,-138 6,-138 0,-132 0,-126 0,-126 0,-106 0,-106 0,-100 6,-94 12,-94 12,-94 780,-94 780,-94 786,-94 792,-100 792,-106 792,-106 792,-126 792,-126 792,-132 786,-138 780,-138'/><text text-anchor='start' x='289' y='-118.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#8b6b30'>4. General orchestration packet</text><text text-anchor='start' x='169' y='-106.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#8b6b30'>Controls graph mechanics, review logic, merge discipline, and refresh behavior.</text></g><g id='node5' class='node'><title>s5</title><path fill='#f2fffa' stroke='#bde8db' stroke-width='1.4' d='M1604,-44C1604,-44 836,-44 836,-44 830,-44 824,-38 824,-32 824,-32 824,-12 824,-12 824,-6 830,0 836,0 836,0 1604,0 1604,0 1610,0 1616,-6 1616,-12 1616,-12 1616,-32 1616,-32 1616,-38 1610,-44 1604,-44'/><text text-anchor='start' x='1152.5' y='-24.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#0f766e'>5. Run&#45;local prompt</text><text text-anchor='start' x='996.5' y='-12.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#0f766e'>Situational execution details that must not contradict higher&#45;precedence layers.</text></g><g id='node6' class='node'><title>rule</title><path fill='#ffffff' stroke='#d7e2f4' stroke-width='1.4' d='M1604,-138C1604,-138 836,-138 836,-138 830,-138 824,-132 824,-126 824,-126 824,-106 824,-106 824,-100 830,-94 836,-94 836,-94 1604,-94 1604,-94 1610,-94 1616,-100 1616,-106 1616,-106 1616,-126 1616,-126 1616,-132 1610,-138 1604,-138'/><text text-anchor='start' x='1157.5' y='-118.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#0f274f'>Interpretation rule</text><text text-anchor='start' x='1075' y='-106.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#0f274f'>When sources disagree, move upward in the stack.</text></g><g id='node7' class='node'><title>effect</title><path fill='#ffffff' stroke='#d7e2f4' stroke-width='1.4' d='M2428,-138C2428,-138 1660,-138 1660,-138 1654,-138 1648,-132 1648,-126 1648,-126 1648,-106 1648,-106 1648,-100 1654,-94 1660,-94 1660,-94 2428,-94 2428,-94 2434,-94 2440,-100 2440,-106 2440,-106 2440,-126 2440,-126 2440,-132 2434,-138 2428,-138'/><text text-anchor='start' x='1992' y='-118.8' font-family='Inter,Segoe UI,Arial' font-weight='bold' font-size='14.00' fill='#0f274f'>Practical effect</text><text text-anchor='start' x='1911.5' y='-106.4' font-family='Inter,Segoe UI,Arial' font-size='12.00' fill='#0f274f'>The packet governs mechanics, not substance.</text></g></g></svg>
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFCFF"/>
+      <stop offset="1" stop-color="#EEF5FF"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#B7C7E6" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+  <rect x="56" y="54" width="1488" height="124" rx="26" fill="url(#band)" stroke="#D7E2F4"/>
+  <text x="88" y="102" fill="#102042" font-size="42" font-family="Inter,Segoe UI,Arial" font-weight="700">Standards precedence stack</text>
+  <text x="88" y="136" fill="#4F648A" font-size="21" font-family="Inter,Segoe UI,Arial">Project-specific doctrine outranks the packet. The packet then governs execution mechanics, review placement, and graph refresh.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="220" width="1488" height="612" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
+  </g>
+
+  <rect x="128" y="264" width="1344" height="82" rx="22" fill="#F8FBFF" stroke="#CFE0F6"/>
+  <text x="160" y="298" fill="#2563EB" font-size="24" font-family="Inter,Segoe UI,Arial" font-weight="700">1. Project handoff or canonical build spec</text>
+  <text x="160" y="326" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">The actual product, book, or codebase doctrine. This is the top authority when conflicts appear.</text>
+
+  <rect x="196" y="366" width="1208" height="82" rx="22" fill="#F8FBFF" stroke="#CFE0F6"/>
+  <text x="228" y="400" fill="#2563EB" font-size="24" font-family="Inter,Segoe UI,Arial" font-weight="700">2. Local chapter, module, subsystem, or batch contract</text>
+  <text x="228" y="428" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Refines the current execution slice without overruling the project-level doctrine above it.</text>
+
+  <rect x="264" y="468" width="1072" height="82" rx="22" fill="#FBFAFF" stroke="#D8C8FA"/>
+  <text x="296" y="502" fill="#7C3AED" font-size="24" font-family="Inter,Segoe UI,Arial" font-weight="700">3. Domain profile</text>
+  <text x="296" y="530" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">Adapts the graph to writing, coding, proof, research, or another class of work.</text>
+
+  <rect x="332" y="570" width="936" height="82" rx="22" fill="#FFFDF6" stroke="#F8DCA5"/>
+  <text x="364" y="604" fill="#B45309" font-size="24" font-family="Inter,Segoe UI,Arial" font-weight="700">4. General orchestration packet</text>
+  <text x="364" y="632" fill="#8B6B30" font-size="17" font-family="Inter,Segoe UI,Arial">Controls graph mechanics, review logic, merge discipline, and refresh behavior.</text>
+
+  <rect x="400" y="672" width="800" height="82" rx="22" fill="#F2FFFA" stroke="#BDE8DB"/>
+  <text x="432" y="706" fill="#0F766E" font-size="24" font-family="Inter,Segoe UI,Arial" font-weight="700">5. Run-local prompt</text>
+  <text x="432" y="734" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Situational execution details that must not contradict any higher-precedence layer.</text>
+
+  <path d="M800 346V366" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M800 448V468" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M800 550V570" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M800 652V672" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="92" y="708" width="252" height="90" rx="20" fill="#FFFFFF" stroke="#D7E2F4"/>
+  <text x="118" y="744" fill="#2563EB" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">Interpretation rule</text>
+  <text x="118" y="774" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">When sources disagree,</text>
+  <text x="118" y="796" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">move upward in the stack.</text>
+
+  <rect x="1264" y="708" width="244" height="90" rx="20" fill="#FFFFFF" stroke="#D7E2F4"/>
+  <text x="1290" y="744" fill="#7C3AED" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">Practical effect</text>
+  <text x="1290" y="774" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">The packet governs</text>
+  <text x="1290" y="796" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">mechanics, not substance.</text>
+</svg>
