@@ -1,65 +1,63 @@
-<svg width="1800" height="1120" viewBox="0 0 1800 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="1120" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#F9FBFF"/><stop offset="1" stop-color="#EEF5FF"/>
-  </linearGradient>
-  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#B7C7E6" flood-opacity="0.35"/>
-  </filter>
-</defs>
-<rect width="1800" height="1120" rx="32" fill="url(#bg)"/>
-<text x="70" y="92" fill="#102042" font-size="44" font-family="Inter, Segoe UI, Arial" font-weight="700">How graph shape changes by domain</text>
-<text x="70" y="132" fill="#4F648A" font-size="22" font-family="Inter, Segoe UI, Arial">The framework is not one fixed graph. It changes according to dominant risks, the real unit of work, and whether scale is safe.</text>
+<svg width="1600" height="820" viewBox="0 0 1600 820" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FBFF"/>
+      <stop offset="1" stop-color="#EEF5FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#B7C7E6" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="820" rx="28" fill="url(#bg)"/>
+  <text x="56" y="78" fill="#102042" font-size="38" font-family="Inter,Segoe UI,Arial" font-weight="700">How graph shape changes by domain</text>
+  <text x="56" y="112" fill="#4F648A" font-size="20" font-family="Inter,Segoe UI,Arial">The framework is not one fixed graph. It changes according to dominant risks, the real unit of work, and whether scale is safe.</text>
 
-<g filter="url(#shadow)">
-  <rect x="70" y="190" width="780" height="388" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
-  <rect x="950" y="190" width="780" height="388" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
-  <rect x="70" y="636" width="780" height="388" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
-  <rect x="950" y="636" width="780" height="388" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
-</g>
+  <g filter="url(#shadow)">
+    <rect x="56" y="156" width="712" height="272" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
+    <rect x="832" y="156" width="712" height="272" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
+    <rect x="56" y="484" width="712" height="272" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
+    <rect x="832" y="484" width="712" height="272" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
+  </g>
 
-<text x="104" y="246" fill="#2563EB" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="700">Writing and content</text>
-<text x="984" y="246" fill="#7C3AED" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="700">Coding and implementation</text>
-<text x="104" y="692" fill="#0F766E" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="700">Research and analysis</text>
-<text x="984" y="692" fill="#DB2777" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="700">Math and proof</text>
+  <text x="84" y="206" fill="#2563EB" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Writing and content</text>
+  <text x="84" y="242" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Unit</text>
+  <text x="146" y="242" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Chapter or scene family</text>
+  <text x="84" y="272" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Risk</text>
+  <text x="146" y="272" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Templatization and late quality collapse</text>
+  <text x="84" y="302" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Shape</text>
+  <text x="146" y="302" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Pilot sample → writing-aware QA → readiness → workers</text>
+  <text x="84" y="346" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Key nodes: PILOT_SAMPLE, DETEMPLATIZATION_QA,</text>
+  <text x="84" y="371" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">ADDENDUM_INTEGRATION_QA, META_CAPABILITY_DRIFT_ANALYSIS,</text>
+  <text x="84" y="396" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">WHOLE_SYSTEM_COHERENCE_QA</text>
 
-<text x="104" y="296" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Unit</text>
-<text x="164" y="296" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Chapter or scene family</text>
-<text x="104" y="334" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Risk</text>
-<text x="164" y="334" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Templatization and late quality collapse</text>
-<text x="104" y="372" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Shape</text>
-<text x="164" y="372" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Pilot sample → writing-aware QA → readiness → workers</text>
-<rect x="104" y="404" width="676" height="118" rx="20" fill="#F8FBFF" stroke="#CFE0F6"/>
-<text x="130" y="448" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">Key nodes: PILOT_SAMPLE, DETEMPLATIZATION_QA, ADDENDUM_INTEGRATION_QA,</text>
-<text x="130" y="476" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">META_CAPABILITY_DRIFT_ANALYSIS, WHOLE_SYSTEM_COHERENCE_QA</text>
+  <text x="860" y="206" fill="#7C3AED" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Coding and implementation</text>
+  <text x="860" y="242" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Unit</text>
+  <text x="922" y="242" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Feature slice or subsystem seam</text>
+  <text x="860" y="272" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Risk</text>
+  <text x="922" y="272" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Regression, weak interfaces, merge pain</text>
+  <text x="860" y="302" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Shape</text>
+  <text x="922" y="302" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Direct execution or pilot → QA → merge review → convergence</text>
+  <text x="860" y="346" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Key nodes: EXECUTION, QA_GATE, MERGE_REVIEW,</text>
+  <text x="860" y="371" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">PATCH_REGRESSION_QA, GRAPH_REFRESH when local patching</text>
+  <text x="860" y="396" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">no longer matches the architecture</text>
 
-<text x="984" y="296" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Unit</text>
-<text x="1044" y="296" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Feature slice or subsystem seam</text>
-<text x="984" y="334" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Risk</text>
-<text x="1044" y="334" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Regression, weak interfaces, merge pain</text>
-<text x="984" y="372" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Shape</text>
-<text x="1044" y="372" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Direct execution or pilot → QA → merge review → convergence</text>
-<rect x="984" y="404" width="676" height="118" rx="20" fill="#FBFAFF" stroke="#D5C8FA"/>
-<text x="1010" y="448" fill="#6C6590" font-size="20" font-family="Inter, Segoe UI, Arial">Key nodes: EXECUTION, QA_GATE, MERGE_REVIEW, PATCH_REGRESSION_QA,</text>
-<text x="1010" y="476" fill="#6C6590" font-size="20" font-family="Inter, Segoe UI, Arial">GRAPH_REFRESH when local patching no longer matches the architecture</text>
+  <text x="84" y="534" fill="#0F766E" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Research and analysis</text>
+  <text x="84" y="570" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Unit</text>
+  <text x="146" y="570" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Question cluster or route family</text>
+  <text x="84" y="600" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Risk</text>
+  <text x="146" y="600" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Wrong framing or stale evidence</text>
+  <text x="84" y="630" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Shape</text>
+  <text x="146" y="630" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Framing → research audit → synthesis → framing check</text>
+  <text x="84" y="674" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Key nodes: DEEP_RESEARCH_AUDIT, EXECUTION synthesis,</text>
+  <text x="84" y="699" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">QA_GATE, GRAPH_REFRESH when research changes the real question</text>
 
-<text x="104" y="742" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Unit</text>
-<text x="164" y="742" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Question cluster or route family</text>
-<text x="104" y="780" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Risk</text>
-<text x="164" y="780" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Wrong framing or stale evidence</text>
-<text x="104" y="818" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Shape</text>
-<text x="164" y="818" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Framing → research audit → synthesis → framing check</text>
-<rect x="104" y="850" width="676" height="118" rx="20" fill="#F2FFFA" stroke="#BDE8DB"/>
-<text x="130" y="894" fill="#4E7A76" font-size="20" font-family="Inter, Segoe UI, Arial">Key nodes: DEEP_RESEARCH_AUDIT, EXECUTION synthesis, QA_GATE, GRAPH_REFRESH</text>
-<text x="130" y="922" fill="#4E7A76" font-size="20" font-family="Inter, Segoe UI, Arial">The graph must stay willing to change if research changes the real question.</text>
-
-<text x="984" y="742" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Unit</text>
-<text x="1044" y="742" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Claim, lemma, or proof segment</text>
-<text x="984" y="780" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Risk</text>
-<text x="1044" y="780" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Hidden proof gaps and circular dependencies</text>
-<text x="984" y="818" fill="#B45309" font-size="21" font-family="Inter, Segoe UI, Arial" font-weight="700">Shape</text>
-<text x="1044" y="818" fill="#5D7397" font-size="21" font-family="Inter, Segoe UI, Arial">Lock target → dependency graph → lemma execution → proof-gap QA</text>
-<rect x="984" y="850" width="676" height="118" rx="20" fill="#FFF7FB" stroke="#F1C6DD"/>
-<text x="1010" y="894" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">Key nodes: EXECUTION on claims, QA_GATE for proof gaps, HARMONIZATION, GRAPH_REFRESH</text>
-<text x="1010" y="922" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">This branch is dependency-sensitive and validity-sensitive rather than mainly evidence-sensitive.</text>
+  <text x="860" y="534" fill="#DB2777" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Math and proof</text>
+  <text x="860" y="570" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Unit</text>
+  <text x="922" y="570" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Claim, lemma, or proof segment</text>
+  <text x="860" y="600" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Risk</text>
+  <text x="922" y="600" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Hidden proof gaps and circular dependencies</text>
+  <text x="860" y="630" fill="#B45309" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700">Shape</text>
+  <text x="922" y="630" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Lock target → dependency graph → lemma execution → proof-gap QA</text>
+  <text x="860" y="674" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Key nodes: EXECUTION on claims, QA_GATE for proof gaps,</text>
+  <text x="860" y="699" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">HARMONIZATION, GRAPH_REFRESH</text>
 </svg>
