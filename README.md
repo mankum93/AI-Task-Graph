@@ -23,16 +23,17 @@ This repository packages the **v08 task graph orchestration packet** in a GitHub
 |---|---|---|
 | **Use the framework on a real task right away** | [Start here index](start-here/README.md) → [Quickstart](start-here/quickstart.md) → [First task graph prompt](start-here/first-task-graph-prompt.md) | a practical first run instead of a theory-only tour |
 | **See a full example before trying it** | [Examples index](examples/README.md) → one of the [canonical example packs](examples/README.md#which-pack-should-you-open-first) | a domain-shaped model of what good graph execution looks like |
-| **Read the source-of-truth doctrine first** | [Packet v08](packet/v08/README.md) → [Provenance and version clarity](packet/v08/provenance.md) → `core_packet.md` → `domain_profiles.md` | the governing doctrine, lineage, and precedence model |
+| **Read the source-of-truth doctrine first** | [Packet v08](packet/v08/README.md) → [Provenance and version clarity](packet/v08/provenance.md) → [Core packet](packet/v08/core_packet.md) → [Domain profiles](packet/v08/domain_profiles.md) | the governing doctrine, lineage, and precedence model |
 
 ## Fast first run
 
 If you only want the shortest reliable path:
 
 1. open [Quickstart](start-here/quickstart.md)
-2. attach the packet surfaces listed there
-3. paste the starter prompt from [First task graph prompt](start-here/first-task-graph-prompt.md)
-4. ask the AI to run the **first node only**, not the whole task
+2. if you already have a project handoff, canonical build spec, or local contract, attach that first
+3. attach the packet surfaces listed there
+4. paste the starter prompt from [First task graph prompt](start-here/first-task-graph-prompt.md)
+5. ask the AI to run the **first node only**, not the whole task
 
 That path is the fastest way to feel the framework working instead of just reading about it.
 
@@ -133,7 +134,7 @@ Use this precedence order:
 2. **local chapter, module, subsystem, or batch contract**
 3. **domain profile**
 4. **general orchestration packet**
-5. **run-local prompt**
+5. **run-local prompt**, but only for situational execution details that do not contradict higher-level governance
 
 This lets the framework serve a real project handoff instead of accidentally replacing it.
 
@@ -304,21 +305,25 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 ## How to use the packet
 
 ### Minimal path
-1. Attach the packet guide or the general standard.
-2. Attach the relevant domain profile if the task has a clear domain.
-3. Ask the AI to generate a task graph.
-4. Require it to identify the **fundamental unit** and whether calibration is needed.
-5. If subjectivity is high, run a **pilot sample** first.
-6. Let the graph decide when fan-out is safe.
-7. Run the promised review nodes before merge or finalization.
+1. If you already have a project handoff or canonical build spec, attach it first.
+2. Attach local chapter, module, subsystem, or batch contracts if they exist.
+3. Attach the relevant domain profile if the task has a clear domain.
+4. Attach the core packet surfaces.
+5. Ask the AI to generate a task graph.
+6. Require it to identify the **fundamental unit** and whether calibration is needed.
+7. If subjectivity is high, run a **pilot sample** first.
+8. Let the graph decide when fan-out is safe.
+9. Run the promised review nodes before merge or finalization.
 
 ### Stronger path for large projects
-1. Attach the full packet.
-2. Attach your project handoff or build spec.
-3. Ask for a graph with explicit node types, dependencies, evidence expectations, and QA nodes.
-4. Accept one calibrated pilot sample.
-5. Dispatch parallel worker nodes only after readiness review.
-6. Use merge review, harmonization, and graph refresh where needed.
+1. Attach your project handoff or build spec.
+2. Attach local contracts for the current chapter, module, subsystem, or batch.
+3. Attach the relevant domain profile.
+4. Attach the full packet surfaces.
+5. Ask for a graph with explicit node types, dependencies, evidence expectations, and QA nodes.
+6. Accept one calibrated pilot sample.
+7. Dispatch parallel worker nodes only after readiness review.
+8. Use merge review, harmonization, and graph refresh where needed.
 
 ### After the graph exists
 - run the **first ready node only**
