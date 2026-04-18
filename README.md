@@ -180,17 +180,19 @@ The framework supports worker fan-out, but only after:
 
 ---
 
-## Explore a canonical example
+## Explore canonical examples
 
-The repo now includes a real end-to-end example pack that shows how the framework would be applied to a quality-sensitive long-form project.
+The repo now includes multiple end-to-end example packs showing how the framework changes shape across domains.
 
 - [Examples index](examples/README.md)
 - [Technical book canonical example](examples/technical-book-canonical/README.md)
-- [Generated graph](examples/technical-book-canonical/generated-graph.md)
-- [Pilot sample behavior](examples/technical-book-canonical/pilot-sample.md)
-- [Scale readiness review](examples/technical-book-canonical/scale-readiness-review.md)
-- [Worker prompts](examples/technical-book-canonical/worker-prompts.md)
-- [Final convergence](examples/technical-book-canonical/final-convergence.md)
+- [Coding feature canonical example](examples/coding-feature-canonical/README.md)
+- [Research analysis canonical example](examples/research-analysis-canonical/README.md)
+
+These packs show how the framework adapts to:
+- quality-sensitive writing projects
+- implementation work in real codebases
+- current-reality analytical questions
 
 ---
 
@@ -218,13 +220,25 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 │   └── task-graph-node-system.svg
 ├── examples/
 │   ├── README.md
-│   └── technical-book-canonical/
+│   ├── technical-book-canonical/
+│   │   ├── README.md
+│   │   ├── task.md
+│   │   ├── generated-graph.md
+│   │   ├── pilot-sample.md
+│   │   ├── scale-readiness-review.md
+│   │   ├── worker-prompts.md
+│   │   └── final-convergence.md
+│   ├── coding-feature-canonical/
+│   │   ├── README.md
+│   │   ├── task.md
+│   │   ├── generated-graph.md
+│   │   ├── execution-and-merge.md
+│   │   └── final-convergence.md
+│   └── research-analysis-canonical/
 │       ├── README.md
 │       ├── task.md
 │       ├── generated-graph.md
-│       ├── pilot-sample.md
-│       ├── scale-readiness-review.md
-│       ├── worker-prompts.md
+│       ├── deep-research-and-synthesis.md
 │       └── final-convergence.md
 ├── packet/
 │   └── v08/
