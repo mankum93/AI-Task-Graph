@@ -1,73 +1,81 @@
-<svg width="1600" height="760" viewBox="0 0 1600 760" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F9FBFF"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFCFF"/>
       <stop offset="1" stop-color="#EEF5FF"/>
     </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#FCE7F3"/>
+    </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#B7C7E6" flood-opacity="0.30"/>
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#B7C7E6" flood-opacity="0.30"/>
     </filter>
   </defs>
-  <rect width="1600" height="760" rx="28" fill="url(#bg)"/>
-  <text x="56" y="76" fill="#102042" font-size="38" font-family="Inter,Segoe UI,Arial" font-weight="700">Math and proof branch: dependency-sensitive graph</text>
-  <text x="56" y="110" fill="#4F648A" font-size="20" font-family="Inter,Segoe UI,Arial">Proof work is governed by exact target locking, admissible tools, claim dependencies, and proof-gap QA before global assembly.</text>
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+  <rect x="56" y="54" width="1488" height="132" rx="26" fill="url(#band)" stroke="#D7E2F4"/>
+  <text x="88" y="104" fill="#102042" font-size="42" font-family="Inter,Segoe UI,Arial" font-weight="700">Math and proof branch: dependency-sensitive graph</text>
+  <text x="88" y="138" fill="#4F648A" font-size="21" font-family="Inter,Segoe UI,Arial">Proof work is governed by exact target locking, admissible tools, claim dependencies, and proof-gap QA before global assembly.</text>
 
   <g filter="url(#shadow)">
-    <rect x="56" y="146" width="1488" height="162" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
-    <rect x="56" y="352" width="712" height="348" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
-    <rect x="832" y="352" width="712" height="348" rx="24" fill="#FFFFFF" stroke="#D7E2F4"/>
+    <rect x="56" y="226" width="1488" height="190" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
+    <rect x="56" y="468" width="712" height="360" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
+    <rect x="832" y="468" width="712" height="360" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
   </g>
 
-  <rect x="88" y="188" width="214" height="86" rx="18" fill="#F8FBFF" stroke="#CFE0F6"/>
-  <text x="116" y="224" fill="#0F2554" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">1. Lock target</text>
-  <text x="116" y="252" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Exact theorem, scope, and route.</text>
+  <text x="84" y="278" fill="#7C3AED" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Dependency setup</text>
+  <rect x="84" y="304" width="214" height="88" rx="20" fill="#F8FBFF" stroke="#CFE0F6"/>
+  <text x="110" y="340" fill="#0F2554" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">1. Lock target</text>
+  <text x="110" y="368" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Exact theorem, scope, and admissible route.</text>
 
-  <rect x="348" y="188" width="230" height="86" rx="18" fill="#F8FBFF" stroke="#CFE0F6"/>
-  <text x="376" y="224" fill="#0F2554" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">2. Lock definitions</text>
-  <text x="376" y="252" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Notation, conventions, allowed tools.</text>
+  <rect x="344" y="304" width="230" height="88" rx="20" fill="#F8FBFF" stroke="#CFE0F6"/>
+  <text x="370" y="340" fill="#0F2554" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">2. Lock definitions</text>
+  <text x="370" y="368" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Notation, conventions, and allowed tools.</text>
 
-  <rect x="624" y="188" width="232" height="86" rx="18" fill="#FBFAFF" stroke="#D5C8FA"/>
-  <text x="652" y="224" fill="#372160" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">3. Decompose route</text>
-  <text x="652" y="252" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">Claims, lemmas, cases, segments.</text>
+  <rect x="620" y="304" width="234" height="88" rx="20" fill="#FBFAFF" stroke="#D8C8FA"/>
+  <text x="646" y="340" fill="#372160" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">3. Decompose route</text>
+  <text x="646" y="368" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">Claims, lemmas, cases, and proof segments.</text>
 
-  <rect x="902" y="188" width="250" height="86" rx="18" fill="#FBFAFF" stroke="#D5C8FA"/>
-  <text x="930" y="224" fill="#372160" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">4. Dependency graph</text>
-  <text x="930" y="252" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">What must be proved first and why.</text>
+  <rect x="900" y="304" width="254" height="88" rx="20" fill="#FBFAFF" stroke="#D8C8FA"/>
+  <text x="926" y="340" fill="#372160" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">4. Dependency graph</text>
+  <text x="926" y="368" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">What must be proved first, and why.</text>
 
-  <rect x="1198" y="188" width="290" height="86" rx="18" fill="#F2FFFA" stroke="#BDE8DB"/>
-  <text x="1226" y="224" fill="#0F766E" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">5. Execute dependency-ready claims</text>
-  <text x="1226" y="252" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Advance only when prerequisites are real.</text>
+  <rect x="1200" y="304" width="286" height="88" rx="20" fill="#F2FFFA" stroke="#BDE8DB"/>
+  <text x="1226" y="340" fill="#0F766E" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">5. Execute ready claims</text>
+  <text x="1226" y="368" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Advance only when prerequisites are actually real.</text>
 
-  <path d="M302 231H348" stroke="#60A5FA" stroke-width="7" stroke-linecap="round"/>
-  <path d="M578 231H624" stroke="#60A5FA" stroke-width="7" stroke-linecap="round"/>
-  <path d="M856 231H902" stroke="#8B5CF6" stroke-width="7" stroke-linecap="round"/>
-  <path d="M1152 231H1198" stroke="#8B5CF6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M298 348H344" stroke="#60A5FA" stroke-width="7" stroke-linecap="round"/>
+  <path d="M574 348H620" stroke="#60A5FA" stroke-width="7" stroke-linecap="round"/>
+  <path d="M854 348H900" stroke="#8B5CF6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1154 348H1200" stroke="#0EA5A2" stroke-width="7" stroke-linecap="round"/>
 
-  <text x="84" y="404" fill="#7C3AED" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Local proof progression</text>
-  <text x="84" y="438" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Each claim or lemma worker should report dependencies, unresolved gaps, case coverage, and whether the claim needs to be split or reformulated.</text>
+  <text x="84" y="520" fill="#7C3AED" font-size="30" font-family="Inter,Segoe UI,Arial" font-weight="700">Local proof progression</text>
+  <rect x="84" y="542" width="144" height="28" rx="14" fill="#FBFAFF" stroke="#D8C8FA"/>
+  <text x="108" y="561" fill="#6B46C1" font-size="15" font-family="Inter,Segoe UI,Arial">Validity pressure</text>
+  <text x="84" y="610" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Each claim or lemma worker should report dependencies, unresolved gaps, case coverage, and whether the claim needs to be split or reformulated.</text>
+  <rect x="84" y="648" width="302" height="110" rx="20" fill="#FBFAFF" stroke="#D8C8FA"/>
+  <text x="110" y="690" fill="#372160" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">EXECUTION on a lemma</text>
+  <text x="110" y="720" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">Real proof work happens at the claim and lemma level.</text>
 
-  <rect x="84" y="474" width="298" height="98" rx="18" fill="#FBFAFF" stroke="#D5C8FA"/>
-  <text x="110" y="514" fill="#372160" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">EXECUTION on a lemma</text>
-  <text x="110" y="544" fill="#6C6590" font-size="17" font-family="Inter,Segoe UI,Arial">Real proof work happens at the claim and lemma level.</text>
+  <rect x="430" y="648" width="304" height="110" rx="20" fill="#FFF7FB" stroke="#F1C6DD"/>
+  <text x="456" y="690" fill="#7A1745" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">QA_GATE for proof gaps</text>
+  <text x="456" y="720" fill="#93637C" font-size="17" font-family="Inter,Segoe UI,Arial">Catch circularity, missing cases, and illicit theorem usage.</text>
 
-  <rect x="428" y="474" width="304" height="98" rx="18" fill="#FFF7FB" stroke="#F1C6DD"/>
-  <text x="454" y="514" fill="#7A1745" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">QA_GATE for proof gaps</text>
-  <text x="454" y="544" fill="#93637C" font-size="17" font-family="Inter,Segoe UI,Arial">Catch circularity, missing cases, and illicit theorem usage.</text>
+  <rect x="84" y="782" width="650" height="28" rx="14" fill="#F8FBFF" stroke="#CFE0F6"/>
+  <text x="110" y="801" fill="#5D7397" font-size="16" font-family="Inter,Segoe UI,Arial">This branch is about dependency discipline and validity, not mainly about external evidence or stylistic polish.</text>
 
-  <rect x="84" y="604" width="648" height="58" rx="16" fill="#F8FBFF" stroke="#CFE0F6"/>
-  <text x="110" y="641" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">This branch is about dependency discipline and validity, not mainly about external evidence or stylistic polish.</text>
+  <text x="860" y="520" fill="#0F766E" font-size="30" font-family="Inter,Segoe UI,Arial" font-weight="700">Global assembly and failure handling</text>
+  <rect x="860" y="542" width="162" height="28" rx="14" fill="#F2FFFA" stroke="#BDE8DB"/>
+  <text x="884" y="561" fill="#0F766E" font-size="15" font-family="Inter,Segoe UI,Arial">Closure pressure</text>
+  <text x="860" y="610" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Local plausibility is not enough. The final branch must still ask whether the proven pieces assemble into the actual theorem as stated.</text>
+  <rect x="860" y="648" width="290" height="110" rx="20" fill="#F2FFFA" stroke="#BDE8DB"/>
+  <text x="886" y="690" fill="#0F766E" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">HARMONIZATION</text>
+  <text x="886" y="720" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Assemble local claims into one coherent theorem route.</text>
 
-  <text x="860" y="404" fill="#0F766E" font-size="28" font-family="Inter,Segoe UI,Arial" font-weight="700">Global assembly and failure handling</text>
-  <text x="860" y="438" fill="#5D7397" font-size="18" font-family="Inter,Segoe UI,Arial">Local plausibility is not enough. The final branch must still ask whether the proven pieces assemble into the actual theorem as stated.</text>
+  <rect x="1192" y="648" width="320" height="110" rx="20" fill="#F2FFFA" stroke="#BDE8DB"/>
+  <text x="1218" y="690" fill="#0F766E" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">GRAPH_REFRESH if needed</text>
+  <text x="1218" y="720" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Refresh when a key lemma fails or the decomposition itself was wrong.</text>
 
-  <rect x="860" y="474" width="286" height="98" rx="18" fill="#F2FFFA" stroke="#BDE8DB"/>
-  <text x="886" y="514" fill="#0F766E" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">HARMONIZATION</text>
-  <text x="886" y="544" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Assemble local claims into one coherent theorem route.</text>
-
-  <rect x="1190" y="474" width="314" height="98" rx="18" fill="#F2FFFA" stroke="#BDE8DB"/>
-  <text x="1216" y="514" fill="#0F766E" font-size="22" font-family="Inter,Segoe UI,Arial" font-weight="700">GRAPH_REFRESH if needed</text>
-  <text x="1216" y="544" fill="#4E7A76" font-size="17" font-family="Inter,Segoe UI,Arial">Refresh when a key lemma fails or the decomposition itself was wrong.</text>
-
-  <rect x="860" y="604" width="644" height="58" rx="16" fill="#F8FBFF" stroke="#CFE0F6"/>
-  <text x="886" y="641" fill="#5D7397" font-size="17" font-family="Inter,Segoe UI,Arial">Plausible prose is not proof until the dependency chain survives QA and the theorem route actually closes.</text>
+  <rect x="860" y="782" width="652" height="28" rx="14" fill="#F8FBFF" stroke="#CFE0F6"/>
+  <text x="886" y="801" fill="#5D7397" font-size="16" font-family="Inter,Segoe UI,Arial">Plausible prose is not proof until the dependency chain survives QA and the theorem route actually closes.</text>
 </svg>
