@@ -136,6 +136,10 @@ Use this precedence order:
 4. **general orchestration packet**
 5. **run-local prompt**, but only for situational execution details that do not contradict higher-level governance
 
+<p align="center">
+  <img src="assets/standards-precedence-stack.svg" alt="Rendered precedence stack showing project handoff first, then local contract, domain profile, general packet, and run-local prompt" width="100%" />
+</p>
+
 This lets the framework serve a real project handoff instead of accidentally replacing it.
 
 ---
@@ -251,7 +255,10 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 ├── assets/
 │   ├── hero-task-graph.svg
 │   ├── task-graph-flow.svg
-│   └── task-graph-node-system.svg
+│   ├── task-graph-node-system.svg
+│   ├── standards-precedence-stack.svg
+│   ├── domain-graph-comparison.svg
+│   └── proof-graph-flow.svg
 ├── examples/
 │   ├── README.md
 │   ├── technical-book-canonical/
