@@ -81,6 +81,22 @@ This is the fastest path from “I understand the idea” to “I can use this o
 
 ---
 
+## Reusable prompt library
+
+The repo now includes a reusable prompt layer for common graph operations:
+
+- [Prompts index](prompts/README.md)
+- [Generate task graph](prompts/generate-task-graph.md)
+- [Pilot sample](prompts/pilot-sample.md)
+- [Scale readiness review](prompts/scale-readiness-review.md)
+- [Worker execution](prompts/worker-execution.md)
+- [Merge review](prompts/merge-review.md)
+- [Graph refresh](prompts/graph-refresh.md)
+
+Use these after attaching the packet and generating the graph.
+
+---
+
 ## What the framework can do
 
 - Build task graphs for writing, coding, research, diagram-heavy, and mixed-mode work
@@ -204,6 +220,14 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 │       ├── README.md
 │       ├── core_packet.md
 │       └── domain_profiles.md
+├── prompts/
+│   ├── README.md
+│   ├── generate-task-graph.md
+│   ├── pilot-sample.md
+│   ├── scale-readiness-review.md
+│   ├── worker-execution.md
+│   ├── merge-review.md
+│   └── graph-refresh.md
 ├── start-here/
 │   ├── README.md
 │   ├── quickstart.md
