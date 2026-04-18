@@ -2,13 +2,23 @@
 
 This directory is the shortest path from **understanding AI Task Graph** to **using AI Task Graph**.
 
-If you are new to the framework, follow this order:
+## Open these first
 
-1. [`quickstart.md`](quickstart.md)
-2. [`first-task-graph-prompt.md`](first-task-graph-prompt.md)
-3. [`choosing-a-unit-of-work.md`](choosing-a-unit-of-work.md)
+If you are new to the framework, use this order:
+
+1. [`quickstart.md`](quickstart.md) — what to attach, what prompt to paste, and what to check first
+2. [`first-task-graph-prompt.md`](first-task-graph-prompt.md) — the starter prompt for generating your first graph
+3. [`choosing-a-unit-of-work.md`](choosing-a-unit-of-work.md) — the key concept that decides whether the graph stays healthy under scale
+
+After that:
 4. inspect the reusable [`../prompts/`](../prompts/README.md) library
-5. then inspect the [canonical example](../examples/technical-book-canonical/README.md)
+5. then inspect the most relevant [canonical example pack](../examples/README.md#which-pack-should-you-open-first)
+
+## Pick the route that matches how you learn
+
+- **I want to use it right now** → start with [`quickstart.md`](quickstart.md)
+- **I want to see a full worked example first** → jump to [`../examples/README.md`](../examples/README.md)
+- **I want the source-of-truth doctrine first** → open [`../packet/v08/README.md`](../packet/v08/README.md) and [`../packet/v08/provenance.md`](../packet/v08/provenance.md)
 
 ## What this section is for
 
@@ -30,6 +40,16 @@ If you want the shortest path:
 - attach the packet or the relevant packet surfaces
 - ask the AI to generate a task graph for your real task
 - then use the prompts in [`../prompts/`](../prompts/README.md) as the graph advances
+
+## After your first graph exists
+
+Do not immediately ask the AI to do the whole project.
+
+Instead:
+- run the recommended **first node only**
+- if the graph calls for calibration, run the **pilot sample** next
+- use the reusable prompts only when the graph actually reaches those stages
+- inspect the examples or wiki if you want help judging whether the graph shape looks right
 
 ## When to inspect more
 

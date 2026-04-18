@@ -10,6 +10,14 @@ These are not only explanatory wiki pages. Each example pack is meant to show:
 - what each major node produces
 - how calibration, scale-out, merge, and convergence behave
 
+## Which pack should you open first?
+
+| If your task looks like... | Start with... | Why |
+|---|---|---|
+| a technical book, course-like material, chaptered educational writing, or other quality-sensitive long-form content | [`technical-book-canonical/`](technical-book-canonical/README.md) | it shows the framework’s strongest calibration-first and writing-aware behavior |
+| a feature, subsystem, implementation branch, or merge-sensitive code delivery path | [`coding-feature-canonical/`](coding-feature-canonical/README.md) | it shows execution, QA, merge review, and graph refresh in a real codebase-shaped flow |
+| a current-reality question, analytical synthesis, or proof-adjacent reasoning task | [`research-analysis-canonical/`](research-analysis-canonical/README.md) | it shows evidence-heavy analysis, audit behavior, and convergence on a reasoning-driven branch |
+
 ## Example packs
 
 - [`technical-book-canonical/`](technical-book-canonical/README.md) — canonical end-to-end example for a technical book project
@@ -23,6 +31,16 @@ These are not only explanatory wiki pages. Each example pack is meant to show:
 3. Review the key execution and review nodes.
 4. Inspect how scaling, merge, and convergence behave for that domain.
 5. Compare the pack to other domain packs to see how graph shape changes.
+
+## Suggested reading strategy
+
+If this is your first visit:
+1. pick the pack closest to your real task
+2. read that pack front to back
+3. then compare it to one other domain pack
+4. only then inspect the packet or wiki more deeply if you want doctrine-level detail
+
+That gives most readers a faster trust-building path than trying to absorb the entire repo at once.
 
 ## How these relate to the rest of the repo
 
