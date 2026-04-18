@@ -24,6 +24,13 @@ These are not only explanatory wiki pages. Each example pack is meant to show:
 4. Inspect how scaling, merge, and convergence behave for that domain.
 5. Compare the pack to other domain packs to see how graph shape changes.
 
+## How these relate to the rest of the repo
+
+- Use [`../start-here/`](../start-here/README.md) if you are trying the framework for the first time.
+- Use [`../prompts/`](../prompts/README.md) for reusable execution prompts.
+- Use [`../packet/v08/`](../packet/v08/README.md) for doctrine and source-of-truth guidance.
+- Use [`../wiki/`](../wiki/README.md) for deeper explanation of why graph shapes differ by domain.
+
 ## Why the examples matter
 
 The framework is strongest when it is not only described but shown as a working execution discipline.
