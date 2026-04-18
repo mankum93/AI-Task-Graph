@@ -4,11 +4,12 @@ This is the shortest practical path to using **AI Task Graph** on a real task.
 
 ## What you need
 
-You need three things:
+You usually need four things:
 
 1. a real task
-2. the packet or the relevant packet surfaces
-3. a prompt that tells the AI to generate a task graph instead of continuing loosely
+2. your project handoff, canonical build spec, or local contract, if you already have one
+3. the packet or the relevant packet surfaces
+4. a prompt that tells the AI to generate a task graph instead of continuing loosely
 
 ## Step 1 — Pick a real task
 
@@ -20,10 +21,15 @@ Good starter tasks:
 
 Avoid starting with a huge uncontrolled task if you are just learning the framework.
 
-## Step 2 — Attach the right packet surfaces
+## Step 2 — Attach the right surfaces in precedence order
+
+If you already have a project handoff, canonical build spec, or local contract, attach that **before** the packet.
+
+The packet is meant to govern graph mechanics, worker discipline, review placement, and change handling. It is **not** meant to replace the substantive doctrine already defined by your real project materials.
 
 ### Minimal attachment set
 Attach:
+- your project handoff or local contract, if one exists
 - `packet/v08/core_packet.md`
 - `packet/v08/domain_profiles.md`
 
@@ -40,6 +46,7 @@ Use the prompt from [`first-task-graph-prompt.md`](first-task-graph-prompt.md) o
 The point of the prompt is to force the AI to:
 - classify the task
 - identify the fundamental unit of work
+- respect the standards stack in precedence order
 - decide whether pilot calibration is needed
 - propose explicit nodes, dependencies, and review points
 
@@ -52,6 +59,7 @@ A decent first graph should tell you:
 - what can be parallelized later
 - what QA or merge nodes are required
 - what would trigger graph refresh
+- what the active standards stack is, in precedence order
 
 If the graph skips those things, it is probably too shallow.
 
@@ -83,6 +91,7 @@ After one pass, you should have:
 - a clearly identified unit of work
 - either a pilot sample path or a direct execution path
 - explicit review nodes
+- a named standards stack that respects handoff precedence
 - a clearer execution strategy than “continue”
 
 ## Suggested next reading
