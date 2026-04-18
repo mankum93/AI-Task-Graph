@@ -17,6 +17,27 @@ This repository packages the **v08 task graph orchestration packet** in a GitHub
 
 ---
 
+## New here? Choose one path
+
+| If you want to... | Open these first | What you will get |
+|---|---|---|
+| **Use the framework on a real task right away** | [Start here index](start-here/README.md) → [Quickstart](start-here/quickstart.md) → [First task graph prompt](start-here/first-task-graph-prompt.md) | a practical first run instead of a theory-only tour |
+| **See a full example before trying it** | [Examples index](examples/README.md) → one of the [canonical example packs](examples/README.md#which-pack-should-you-open-first) | a domain-shaped model of what good graph execution looks like |
+| **Read the source-of-truth doctrine first** | [Packet v08](packet/v08/README.md) → [Provenance and version clarity](packet/v08/provenance.md) → `core_packet.md` → `domain_profiles.md` | the governing doctrine, lineage, and precedence model |
+
+## Fast first run
+
+If you only want the shortest reliable path:
+
+1. open [Quickstart](start-here/quickstart.md)
+2. attach the packet surfaces listed there
+3. paste the starter prompt from [First task graph prompt](start-here/first-task-graph-prompt.md)
+4. ask the AI to run the **first node only**, not the whole task
+
+That path is the fastest way to feel the framework working instead of just reading about it.
+
+---
+
 ## What is a task graph?
 
 A task graph is a structured plan that tells an AI agent:
@@ -104,7 +125,17 @@ The repo’s `packet/v08/` directory is a GitHub-friendly packet rendering, not 
 - [Packet v08](packet/v08/README.md)
 - [Provenance and version clarity](packet/v08/provenance.md)
 
-Use these to understand what the repo packet represents and how future packet upgrades should propagate into the repository.
+### What wins if sources disagree?
+
+Use this precedence order:
+
+1. **project handoff or canonical build spec**
+2. **local chapter, module, subsystem, or batch contract**
+3. **domain profile**
+4. **general orchestration packet**
+5. **run-local prompt**
+
+This lets the framework serve a real project handoff instead of accidentally replacing it.
 
 ---
 
@@ -288,6 +319,12 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 4. Accept one calibrated pilot sample.
 5. Dispatch parallel worker nodes only after readiness review.
 6. Use merge review, harmonization, and graph refresh where needed.
+
+### After the graph exists
+- run the **first ready node only**
+- if the graph calls for calibration, run the **pilot sample** before fan-out
+- use the reusable prompts as the graph advances
+- refresh the graph only when the problem is structural rather than local
 
 ---
 
