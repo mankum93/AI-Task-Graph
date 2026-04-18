@@ -10,19 +10,25 @@ These are not only explanatory wiki pages. Each example pack is meant to show:
 - what each major node produces
 - how calibration, scale-out, merge, and convergence behave
 
+<p align="center">
+  <img src="../assets/domain-graph-comparison.svg" alt="Rendered comparison chart showing how graph shape changes across writing, coding, research, and proof domains" width="100%" />
+</p>
+
 ## Which pack should you open first?
 
 | If your task looks like... | Start with... | Why |
 |---|---|---|
 | a technical book, course-like material, chaptered educational writing, or other quality-sensitive long-form content | [`technical-book-canonical/`](technical-book-canonical/README.md) | it shows the framework’s strongest calibration-first and writing-aware behavior |
 | a feature, subsystem, implementation branch, or merge-sensitive code delivery path | [`coding-feature-canonical/`](coding-feature-canonical/README.md) | it shows execution, QA, merge review, and graph refresh in a real codebase-shaped flow |
-| a current-reality question, analytical synthesis, or proof-adjacent reasoning task | [`research-analysis-canonical/`](research-analysis-canonical/README.md) | it shows evidence-heavy analysis, audit behavior, and convergence on a reasoning-driven branch |
+| a current-reality question or analytical synthesis task grounded in external evidence | [`research-analysis-canonical/`](research-analysis-canonical/README.md) | it shows evidence-heavy analysis, audit behavior, and convergence on a reality-modeling branch |
+| a theorem, proof-heavy problem, or dependency-sensitive mathematical argument | [`math-proof-canonical/`](math-proof-canonical/README.md) | it shows definition locking, lemma dependency order, proof-gap QA, and proof-route refresh |
 
 ## Example packs
 
 - [`technical-book-canonical/`](technical-book-canonical/README.md) — canonical end-to-end example for a technical book project
 - [`coding-feature-canonical/`](coding-feature-canonical/README.md) — canonical end-to-end example for a feature implementation branch in an existing codebase
 - [`research-analysis-canonical/`](research-analysis-canonical/README.md) — canonical end-to-end example for a current-reality analytical question
+- [`math-proof-canonical/`](math-proof-canonical/README.md) — canonical end-to-end example for a mathematics / proof branch
 
 ## How to read an example pack
 
@@ -57,5 +63,6 @@ The repo started with one gold-standard example first. It now extends that patte
 - writing-heavy work
 - coding work
 - research / analytical work
+- mathematics / proof work
 
 without collapsing into one rigid template.

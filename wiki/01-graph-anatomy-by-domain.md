@@ -6,6 +6,10 @@ The key idea is simple:
 
 > A graph should be generated from the problem’s execution physics, not from a fixed template.
 
+<p align="center">
+  <img src="../assets/domain-graph-comparison.svg" alt="Rendered comparison showing how graph shape changes across writing, coding, research, and proof domains" width="100%" />
+</p>
+
 ## Step 1: classify the task correctly
 
 A graph starts by deciding what kind of work this really is.
@@ -135,15 +139,17 @@ flowchart TD
 
 ### D. Proof graph
 
-```mermaid
-flowchart TD
-    A[Classify as proof / math] --> B[Lock definitions and target claim]
-    B --> C[Break into lemmas]
-    C --> D[Prove prerequisite lemmas first]
-    D --> E[Main proof execution]
-    E --> F[Proof-gap / dependency QA]
-    F --> G[Final write-up]
-```
+<p align="center">
+  <img src="../assets/proof-graph-flow.svg" alt="Rendered proof graph showing theorem locking, definition locking, dependency graph construction, lemma execution, proof-gap QA, harmonization, and graph refresh" width="100%" />
+</p>
+
+The proof branch is unusually sensitive to:
+- hidden assumptions
+- circular dependence between lemmas
+- proofs of nearby but not identical claims
+- local correctness that never assembles into a valid theorem route
+
+That is why the proof graph is dependency-heavy rather than evidence-route-heavy.
 
 ## What changes from domain to domain
 

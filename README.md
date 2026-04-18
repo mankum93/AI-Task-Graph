@@ -136,6 +136,10 @@ Use this precedence order:
 4. **general orchestration packet**
 5. **run-local prompt**, but only for situational execution details that do not contradict higher-level governance
 
+<p align="center">
+  <img src="assets/standards-precedence-stack.svg" alt="Rendered precedence stack showing project handoff first, then local contract, domain profile, general packet, and run-local prompt" width="100%" />
+</p>
+
 This lets the framework serve a real project handoff instead of accidentally replacing it.
 
 ---
@@ -220,11 +224,13 @@ The repo now includes multiple end-to-end example packs showing how the framewor
 - [Technical book canonical example](examples/technical-book-canonical/README.md)
 - [Coding feature canonical example](examples/coding-feature-canonical/README.md)
 - [Research analysis canonical example](examples/research-analysis-canonical/README.md)
+- [Math / proof canonical example](examples/math-proof-canonical/README.md)
 
 These packs show how the framework adapts to:
 - quality-sensitive writing projects
 - implementation work in real codebases
 - current-reality analytical questions
+- dependency-sensitive mathematics / proof work
 
 ---
 
@@ -249,7 +255,10 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 ├── assets/
 │   ├── hero-task-graph.svg
 │   ├── task-graph-flow.svg
-│   └── task-graph-node-system.svg
+│   ├── task-graph-node-system.svg
+│   ├── standards-precedence-stack.svg
+│   ├── domain-graph-comparison.svg
+│   └── proof-graph-flow.svg
 ├── examples/
 │   ├── README.md
 │   ├── technical-book-canonical/
@@ -266,11 +275,17 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 │   │   ├── generated-graph.md
 │   │   ├── execution-and-merge.md
 │   │   └── final-convergence.md
-│   └── research-analysis-canonical/
+│   ├── research-analysis-canonical/
+│   │   ├── README.md
+│   │   ├── task.md
+│   │   ├── generated-graph.md
+│   │   ├── deep-research-and-synthesis.md
+│   │   └── final-convergence.md
+│   └── math-proof-canonical/
 │       ├── README.md
 │       ├── task.md
 │       ├── generated-graph.md
-│       ├── deep-research-and-synthesis.md
+│       ├── dependency-and-proof-gap-qa.md
 │       └── final-convergence.md
 ├── packet/
 │   └── v08/
