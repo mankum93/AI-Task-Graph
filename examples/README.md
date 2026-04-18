@@ -10,6 +10,10 @@ These are not only explanatory wiki pages. Each example pack is meant to show:
 - what each major node produces
 - how calibration, scale-out, merge, and convergence behave
 
+<p align="center">
+  <img src="../assets/domain-graph-comparison.svg" alt="Rendered comparison chart showing how graph shape changes across writing, coding, research, and proof domains" width="100%" />
+</p>
+
 ## Which pack should you open first?
 
 | If your task looks like... | Start with... | Why |
