@@ -2,6 +2,10 @@
 
 This example pack shows how **AI Task Graph** applies to mathematics and proof work.
 
+<p align="center">
+  <img src="../../assets/proof-graph-flow.svg" alt="Rendered proof-graph flow showing theorem locking, dependency graph construction, lemma execution, proof-gap QA, harmonization, and graph refresh" width="100%" />
+</p>
+
 ## Scenario
 
 A user asks the framework to help an AI agent prove a theorem, solve a proof-heavy problem, or produce a rigorous argument with explicit dependencies.
