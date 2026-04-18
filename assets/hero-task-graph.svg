@@ -1,114 +1,101 @@
 <svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="980" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#07111D"/><stop offset="1" stop-color="#102B49"/>
-  </linearGradient>
-  <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#67E8F9"/><stop offset="1" stop-color="#60A5FA"/>
-  </linearGradient>
-  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#C084FC"/><stop offset="1" stop-color="#8B5CF6"/>
-  </linearGradient>
-  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#F9A8D4"/><stop offset="1" stop-color="#F472B6"/>
+    <stop stop-color="#F9FBFF"/><stop offset="1" stop-color="#EEF5FF"/>
   </linearGradient>
   <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#020617" flood-opacity="0.36"/>
+    <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#B7C7E6" flood-opacity="0.35"/>
   </filter>
 </defs>
 <rect width="1600" height="980" rx="34" fill="url(#bg)"/>
-<circle cx="1350" cy="140" r="190" fill="#67E8F9" fill-opacity="0.07"/>
-<circle cx="1250" cy="810" r="210" fill="#A78BFA" fill-opacity="0.08"/>
-<circle cx="280" cy="160" r="150" fill="#F472B6" fill-opacity="0.08"/>
+<circle cx="1410" cy="120" r="170" fill="#DBEAFE"/>
+<circle cx="220" cy="170" r="130" fill="#FCE7F3"/>
+<circle cx="1320" cy="850" r="210" fill="#EDE9FE"/>
+<text x="72" y="94" fill="#102042" font-size="46" font-family="Inter, Segoe UI, Arial" font-weight="700">AI Task Graph</text>
+<text x="72" y="134" fill="#4F648A" font-size="22" font-family="Inter, Segoe UI, Arial">Turn vague requests into governed execution graphs, calibrated samples, safe scaling, and deliberate convergence.</text>
 
-<text x="72" y="98" fill="white" font-size="46" font-family="Inter, Segoe UI, Arial" font-weight="700">AI Task Graph</text>
-<text x="72" y="138" fill="#AFC4E4" font-size="22" font-family="Inter, Segoe UI, Arial">A structured execution framework for turning vague requests into governed graphs, calibrated samples, safe fan-out, and final convergence.</text>
-
-<rect x="72" y="170" width="238" height="42" rx="21" fill="#0B1628" stroke="#2A537D"/>
-<text x="104" y="198" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">v08 packet included</text>
-<rect x="326" y="170" width="276" height="42" rx="21" fill="#0B1628" stroke="#3A5587"/>
-<text x="358" y="198" fill="#E8DEFF" font-size="20" font-family="Inter, Segoe UI, Arial">Calibration-first scaling</text>
-<rect x="618" y="170" width="288" height="42" rx="21" fill="#0B1628" stroke="#2D6E70"/>
-<text x="650" y="198" fill="#D6FFF7" font-size="20" font-family="Inter, Segoe UI, Arial">Graph refresh when structural</text>
+<rect x="72" y="168" width="212" height="42" rx="21" fill="#FFFFFF" stroke="#BED1F2"/>
+<text x="103" y="196" fill="#284B8F" font-size="20" font-family="Inter, Segoe UI, Arial">v08 packet included</text>
+<rect x="300" y="168" width="270" height="42" rx="21" fill="#FFFFFF" stroke="#C9BAF5"/>
+<text x="331" y="196" fill="#6B46C1" font-size="20" font-family="Inter, Segoe UI, Arial">Calibration-first scaling</text>
+<rect x="586" y="168" width="312" height="42" rx="21" fill="#FFFFFF" stroke="#B9E9DE"/>
+<text x="617" y="196" fill="#0F766E" font-size="20" font-family="Inter, Segoe UI, Arial">Refresh when the route is structural</text>
 
 <g filter="url(#shadow)">
-  <rect x="62" y="248" width="388" height="640" rx="28" fill="#0F1A30" stroke="#28456F"/>
-  <rect x="480" y="248" width="640" height="640" rx="28" fill="#0F1A30" stroke="#28456F"/>
-  <rect x="1150" y="248" width="388" height="640" rx="28" fill="#0F1A30" stroke="#28456F"/>
+  <rect x="62" y="246" width="410" height="656" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
+  <rect x="498" y="246" width="614" height="656" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
+  <rect x="1138" y="246" width="400" height="656" rx="28" fill="#FFFFFF" stroke="#D7E2F4"/>
 </g>
 
-<text x="96" y="304" fill="url(#aqua)" font-size="30" font-family="Inter, Segoe UI, Arial" font-weight="700">What the framework does</text>
+<text x="96" y="304" fill="#2563EB" font-size="30" font-family="Inter, Segoe UI, Arial" font-weight="700">What the framework does</text>
+<rect x="96" y="346" width="342" height="118" rx="22" fill="#F8FBFF" stroke="#CFE0F6"/>
+<text x="122" y="388" fill="#0F2554" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">1. Classify the work</text>
+<text x="122" y="422" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">Writing, coding, research, proof,</text>
+<text x="122" y="448" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">or another mixed execution branch.</text>
 
-<rect x="96" y="344" width="320" height="110" rx="22" fill="#12243E" stroke="#2B5B88"/>
-<text x="122" y="384" fill="#E8F0FF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Classify the work</text>
-<text x="122" y="418" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">Writing, coding, research, proof,</text>
-<text x="122" y="444" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">or another mixed execution branch.</text>
+<rect x="96" y="486" width="342" height="118" rx="22" fill="#F8FBFF" stroke="#CFE0F6"/>
+<text x="122" y="528" fill="#0F2554" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">2. Find the real unit</text>
+<text x="122" y="562" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">Chapter, feature slice, route family,</text>
+<text x="122" y="588" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">lemma, scene, or another stable slice.</text>
 
-<rect x="96" y="478" width="320" height="110" rx="22" fill="#12243E" stroke="#2B5B88"/>
-<text x="122" y="518" fill="#E8F0FF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Find the real unit</text>
-<text x="122" y="552" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">Chapter, feature slice, route family,</text>
-<text x="122" y="578" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">lemma, or another stable work slice.</text>
+<rect x="96" y="626" width="342" height="118" rx="22" fill="#F8FBFF" stroke="#CFE0F6"/>
+<text x="122" y="668" fill="#0F2554" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">3. Prove shape before scale</text>
+<text x="122" y="702" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">Pilot sample plus readiness review</text>
+<text x="122" y="728" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">block unsafe fan-out.</text>
 
-<rect x="96" y="612" width="320" height="110" rx="22" fill="#12243E" stroke="#2B5B88"/>
-<text x="122" y="652" fill="#E8F0FF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Prove shape before scale</text>
-<text x="122" y="686" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">Pilot sample and readiness review</text>
-<text x="122" y="712" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">block unsafe fan-out.</text>
+<rect x="96" y="766" width="342" height="118" rx="22" fill="#F8FBFF" stroke="#CFE0F6"/>
+<text x="122" y="808" fill="#0F2554" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">4. Converge deliberately</text>
+<text x="122" y="842" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">Review, merge, harmonize, patch,</text>
+<text x="122" y="868" fill="#5D7397" font-size="20" font-family="Inter, Segoe UI, Arial">or refresh when the route is wrong.</text>
 
-<rect x="96" y="746" width="320" height="110" rx="22" fill="#12243E" stroke="#2B5B88"/>
-<text x="122" y="786" fill="#E8F0FF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Converge with discipline</text>
-<text x="122" y="820" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">Review, merge, harmonize, patch,</text>
-<text x="122" y="846" fill="#C8D9F1" font-size="20" font-family="Inter, Segoe UI, Arial">or refresh when the route is wrong.</text>
+<text x="532" y="304" fill="#7C3AED" font-size="30" font-family="Inter, Segoe UI, Arial" font-weight="700">Core execution loop</text>
+<rect x="548" y="346" width="222" height="98" rx="22" fill="#F8FBFF" stroke="#D5C8FA"/>
+<text x="580" y="384" fill="#372160" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Task typing</text>
+<text x="580" y="414" fill="#6C6590" font-size="18" font-family="Inter, Segoe UI, Arial">Execution physics first</text>
 
-<text x="514" y="304" fill="url(#violet)" font-size="30" font-family="Inter, Segoe UI, Arial" font-weight="700">Core execution loop</text>
-<rect x="536" y="344" width="528" height="486" rx="26" fill="#0C1629" stroke="#27466E"/>
+<rect x="840" y="346" width="232" height="98" rx="22" fill="#F8FBFF" stroke="#D5C8FA"/>
+<text x="872" y="384" fill="#372160" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Unit selection</text>
+<text x="872" y="414" fill="#6C6590" font-size="18" font-family="Inter, Segoe UI, Arial">Judgeable repeatable slice</text>
+<path d="M770 395H840" stroke="#8B5CF6" stroke-width="8" stroke-linecap="round"/>
 
-<rect x="576" y="386" width="180" height="88" rx="20" fill="#132440" stroke="#2B5B88"/>
-<text x="604" y="420" fill="#E8F0FF" font-size="23" font-family="Inter, Segoe UI, Arial" font-weight="700">Task typing</text>
-<text x="604" y="448" fill="#C8D9F1" font-size="18" font-family="Inter, Segoe UI, Arial">Execution physics first</text>
+<rect x="694" y="506" width="232" height="104" rx="22" fill="#FBFAFF" stroke="#D5C8FA"/>
+<text x="724" y="546" fill="#372160" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Pilot or direct path?</text>
+<text x="724" y="576" fill="#6C6590" font-size="18" font-family="Inter, Segoe UI, Arial">Depends on subjectivity and risk</text>
+<path d="M956 444V486" stroke="#8B5CF6" stroke-width="8" stroke-linecap="round"/>
 
-<rect x="816" y="386" width="208" height="88" rx="20" fill="#132440" stroke="#2B5B88"/>
-<text x="844" y="420" fill="#E8F0FF" font-size="23" font-family="Inter, Segoe UI, Arial" font-weight="700">Unit selection</text>
-<text x="844" y="448" fill="#C8D9F1" font-size="18" font-family="Inter, Segoe UI, Arial">Judgeable repeatable slice</text>
+<rect x="576" y="664" width="208" height="116" rx="22" fill="#F2FFFA" stroke="#BDE8DB"/>
+<text x="606" y="708" fill="#0F766E" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Safe to scale</text>
+<text x="606" y="740" fill="#4E7A76" font-size="18" font-family="Inter, Segoe UI, Arial">Workers run under one</text>
+<text x="606" y="764" fill="#4E7A76" font-size="18" font-family="Inter, Segoe UI, Arial">shared standards stack.</text>
 
-<rect x="676" y="534" width="244" height="92" rx="22" fill="#161F3D" stroke="#6B52A4"/>
-<text x="706" y="570" fill="#EFE7FF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Pilot or direct path?</text>
-<text x="706" y="600" fill="#D9CDF9" font-size="18" font-family="Inter, Segoe UI, Arial">Depends on subjectivity and risk</text>
+<rect x="844" y="664" width="224" height="116" rx="22" fill="#FFF7FB" stroke="#F1C6DD"/>
+<text x="874" y="708" fill="#BE185D" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Not safe yet</text>
+<text x="874" y="740" fill="#93637C" font-size="18" font-family="Inter, Segoe UI, Arial">Keep calibrating or</text>
+<text x="874" y="764" fill="#93637C" font-size="18" font-family="Inter, Segoe UI, Arial">refresh the graph.</text>
+<path d="M810 610V646" stroke="#94A3B8" stroke-width="7" stroke-linecap="round"/>
+<path d="M956 610V646" stroke="#94A3B8" stroke-width="7" stroke-linecap="round"/>
 
-<rect x="566" y="680" width="210" height="90" rx="22" fill="#11243B" stroke="#2A6F78"/>
-<text x="596" y="715" fill="#E8FFF9" font-size="23" font-family="Inter, Segoe UI, Arial" font-weight="700">Safe to scale</text>
-<text x="596" y="744" fill="#C6EFE8" font-size="18" font-family="Inter, Segoe UI, Arial">Workers under shared standards</text>
+<rect x="556" y="822" width="514" height="42" rx="21" fill="#F8FBFF" stroke="#CFE0F6"/>
+<text x="586" y="850" fill="#5D7397" font-size="18" font-family="Inter, Segoe UI, Arial">Every node should report consulted standards, evidence, merge-sensitive surfaces, and structural risks.</text>
 
-<rect x="824" y="680" width="210" height="90" rx="22" fill="#2A1830" stroke="#8B4D87"/>
-<text x="854" y="715" fill="#FFE6F5" font-size="23" font-family="Inter, Segoe UI, Arial" font-weight="700">Not safe yet</text>
-<text x="854" y="744" fill="#F2CCE5" font-size="18" font-family="Inter, Segoe UI, Arial">Keep calibrating or refresh</text>
+<text x="1172" y="304" fill="#DB2777" font-size="30" font-family="Inter, Segoe UI, Arial" font-weight="700">What it protects against</text>
+<rect x="1172" y="346" width="332" height="118" rx="22" fill="#FFF7FB" stroke="#F1C6DD"/>
+<text x="1198" y="388" fill="#7A1745" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Templatization</text>
+<text x="1198" y="422" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">Bulk output that starts strong</text>
+<text x="1198" y="448" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">and later collapses into repetition.</text>
 
-<path d="M756 430H816" stroke="url(#aqua)" stroke-width="8" stroke-linecap="round"/>
-<path d="M920 474V520" stroke="url(#violet)" stroke-width="7" stroke-linecap="round"/>
-<path d="M800 626V665" stroke="#8FAAD6" stroke-width="7" stroke-linecap="round"/>
-<path d="M920 626V665" stroke="#8FAAD6" stroke-width="7" stroke-linecap="round"/>
+<rect x="1172" y="486" width="332" height="118" rx="22" fill="#FFF7FB" stroke="#F1C6DD"/>
+<text x="1198" y="528" fill="#7A1745" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Addendum drift</text>
+<text x="1198" y="562" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">Revisions stapled on instead of</text>
+<text x="1198" y="588" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">integrated into the architecture.</text>
 
-<rect x="548" y="846" width="496" height="26" rx="13" fill="#0A1425" stroke="#27466E"/>
-<text x="580" y="864" fill="#AFC4E4" font-size="16" font-family="Inter, Segoe UI, Arial">Every node should report consulted standards, evidence, merge-sensitive surfaces, and structural risks.</text>
+<rect x="1172" y="626" width="332" height="118" rx="22" fill="#FFF7FB" stroke="#F1C6DD"/>
+<text x="1198" y="668" fill="#7A1745" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Capability drift</text>
+<text x="1198" y="702" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">Long-context execution that</text>
+<text x="1198" y="728" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">quietly drops below potential.</text>
 
-<text x="1184" y="304" fill="url(#pink)" font-size="30" font-family="Inter, Segoe UI, Arial" font-weight="700">What it protects against</text>
-
-<rect x="1184" y="344" width="320" height="110" rx="22" fill="#152033" stroke="#4F4A76"/>
-<text x="1210" y="384" fill="#FDEBFF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Templatization</text>
-<text x="1210" y="418" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">Bulk generation that starts strong</text>
-<text x="1210" y="444" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">and collapses into repetition later.</text>
-
-<rect x="1184" y="478" width="320" height="110" rx="22" fill="#152033" stroke="#4F4A76"/>
-<text x="1210" y="518" fill="#FDEBFF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Addendum drift</text>
-<text x="1210" y="552" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">Revisions stapled on instead of</text>
-<text x="1210" y="578" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">integrated into the architecture.</text>
-
-<rect x="1184" y="612" width="320" height="110" rx="22" fill="#152033" stroke="#4F4A76"/>
-<text x="1210" y="652" fill="#FDEBFF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Capability drift</text>
-<text x="1210" y="686" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">Long-context work that quietly drops</text>
-<text x="1210" y="712" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">below the real quality ceiling.</text>
-
-<rect x="1184" y="746" width="320" height="110" rx="22" fill="#152033" stroke="#4F4A76"/>
-<text x="1210" y="786" fill="#FDEBFF" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Unsafe fan-out</text>
-<text x="1210" y="820" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">Parallel workers launched before a</text>
-<text x="1210" y="846" fill="#E3D4F0" font-size="20" font-family="Inter, Segoe UI, Arial">good output shape has been proven.</text>
+<rect x="1172" y="766" width="332" height="118" rx="22" fill="#FFF7FB" stroke="#F1C6DD"/>
+<text x="1198" y="808" fill="#7A1745" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Unsafe fan-out</text>
+<text x="1198" y="842" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">Parallel workers launched before</text>
+<text x="1198" y="868" fill="#93637C" font-size="20" font-family="Inter, Segoe UI, Arial">good work has been proven.</text>
 </svg>
