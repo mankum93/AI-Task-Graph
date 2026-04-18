@@ -13,18 +13,24 @@ These are not only explanatory wiki pages. Each example pack is meant to show:
 ## Example packs
 
 - [`technical-book-canonical/`](technical-book-canonical/README.md) — canonical end-to-end example for a technical book project
+- [`coding-feature-canonical/`](coding-feature-canonical/README.md) — canonical end-to-end example for a feature implementation branch in an existing codebase
+- [`research-analysis-canonical/`](research-analysis-canonical/README.md) — canonical end-to-end example for a current-reality analytical question
 
 ## How to read an example pack
 
 1. Read the task statement.
 2. Inspect the generated graph.
-3. Review the pilot sample behavior.
-4. Review the scale-readiness decision.
-5. Inspect worker prompts and merge logic.
-6. Review final convergence.
+3. Review the key execution and review nodes.
+4. Inspect how scaling, merge, and convergence behave for that domain.
+5. Compare the pack to other domain packs to see how graph shape changes.
 
 ## Why the examples matter
 
 The framework is strongest when it is not only described but shown as a working execution discipline.
 
-That is why this repo starts with a single **gold-standard example** first, rather than many shallow examples.
+The repo started with one gold-standard example first. It now extends that pattern into multiple domains so visitors can see that the framework adapts to:
+- writing-heavy work
+- coding work
+- research / analytical work
+
+without collapsing into one rigid template.
