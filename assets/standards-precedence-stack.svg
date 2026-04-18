@@ -1,0 +1,59 @@
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="960" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#07111D"/><stop offset="1" stop-color="#0E2742"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#020617" flood-opacity="0.35"/>
+  </filter>
+</defs>
+<rect width="1600" height="960" rx="32" fill="url(#bg)"/>
+<circle cx="1450" cy="120" r="170" fill="#60A5FA" fill-opacity="0.08"/>
+<circle cx="210" cy="140" r="150" fill="#F472B6" fill-opacity="0.08"/>
+<text x="74" y="92" fill="white" font-size="44" font-family="Inter, Segoe UI, Arial" font-weight="700">Standards precedence stack</text>
+<text x="74" y="132" fill="#AFC4E4" font-size="22" font-family="Inter, Segoe UI, Arial">Project-specific doctrine outranks the packet. The packet then governs execution mechanics, review, and refresh.</text>
+<g filter="url(#shadow)">
+  <rect x="70" y="190" width="1460" height="690" rx="28" fill="#0E1A30" stroke="#28456F"/>
+</g>
+
+<g filter="url(#shadow)">
+  <rect x="150" y="250" width="1300" height="92" rx="24" fill="#14243F" stroke="#2E5B89"/>
+  <rect x="220" y="368" width="1160" height="92" rx="24" fill="#11203A" stroke="#365A83"/>
+  <rect x="290" y="486" width="1020" height="92" rx="24" fill="#101D35" stroke="#415A7B"/>
+  <rect x="360" y="604" width="880" height="92" rx="24" fill="#0F1B31" stroke="#4A5A73"/>
+  <rect x="430" y="722" width="740" height="92" rx="24" fill="#0D182C" stroke="#52596B"/>
+</g>
+
+<text x="186" y="304" fill="#67E8F9" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">1. Project handoff or canonical build spec</text>
+<text x="948" y="304" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">Defines the actual product, book, or codebase doctrine.</text>
+
+<text x="256" y="422" fill="#67E8F9" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">2. Local chapter, module, subsystem, or batch contract</text>
+<text x="1060" y="422" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">Refines the current execution slice.</text>
+
+<text x="326" y="540" fill="#A78BFA" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">3. Domain profile</text>
+<text x="996" y="526" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">Adapts the graph to writing, coding,</text>
+<text x="996" y="552" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">proof, research, or other work classes.</text>
+
+<text x="396" y="658" fill="#FBBF24" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">4. General orchestration packet</text>
+<text x="978" y="644" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">Controls execution shape, QA placement,</text>
+<text x="978" y="670" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">merge discipline, and graph refresh.</text>
+
+<text x="466" y="776" fill="#34D399" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="700">5. Run-local prompt</text>
+<text x="904" y="762" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">Situational execution details that must not</text>
+<text x="904" y="788" fill="#DCE9FF" font-size="20" font-family="Inter, Segoe UI, Arial">contradict higher-precedence governance.</text>
+
+<path d="M800 343V362" stroke="#7AA2D9" stroke-width="5" stroke-linecap="round"/>
+<path d="M800 461V480" stroke="#7AA2D9" stroke-width="5" stroke-linecap="round"/>
+<path d="M800 579V598" stroke="#7AA2D9" stroke-width="5" stroke-linecap="round"/>
+<path d="M800 697V716" stroke="#7AA2D9" stroke-width="5" stroke-linecap="round"/>
+
+<rect x="92" y="726" width="270" height="116" rx="22" fill="#0C1628" stroke="#27456D"/>
+<text x="122" y="770" fill="#6EE7F9" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Interpretation rule</text>
+<text x="122" y="804" fill="#C6D7F0" font-size="20" font-family="Inter, Segoe UI, Arial">When two sources disagree,</text>
+<text x="122" y="832" fill="#C6D7F0" font-size="20" font-family="Inter, Segoe UI, Arial">move upward in the stack.</text>
+
+<rect x="1232" y="726" width="270" height="116" rx="22" fill="#0C1628" stroke="#27456D"/>
+<text x="1262" y="770" fill="#A78BFA" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700">Practical effect</text>
+<text x="1262" y="804" fill="#C6D7F0" font-size="20" font-family="Inter, Segoe UI, Arial">The packet governs</text>
+<text x="1262" y="832" fill="#C6D7F0" font-size="20" font-family="Inter, Segoe UI, Arial">mechanics, not substance.</text>
+</svg>
