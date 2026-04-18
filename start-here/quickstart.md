@@ -29,12 +29,13 @@ Attach:
 
 ### Better attachment set
 Also inspect:
-- `examples/technical-book-canonical/README.md`
+- `packet/v08/provenance.md`
+- `examples/README.md`
 - the relevant wiki page for your domain
 
 ## Step 3 — Paste the starter prompt
 
-Use the prompt from [`first-task-graph-prompt.md`](first-task-graph-prompt.md).
+Use the prompt from [`first-task-graph-prompt.md`](first-task-graph-prompt.md) or the reusable version in [`../prompts/generate-task-graph.md`](../prompts/generate-task-graph.md).
 
 The point of the prompt is to force the AI to:
 - classify the task
@@ -73,6 +74,8 @@ Improve the pilot.
 Re-run readiness review.
 Only then expand.
 
+Use the reusable prompts in [`../prompts/`](../prompts/README.md) as the graph advances.
+
 ## What success looks like
 
 After one pass, you should have:
@@ -86,5 +89,6 @@ After one pass, you should have:
 
 After your first attempt:
 - inspect [`choosing-a-unit-of-work.md`](choosing-a-unit-of-work.md)
-- inspect the [canonical example](../examples/technical-book-canonical/README.md)
+- inspect the [examples index](../examples/README.md)
+- inspect the [prompts library](../prompts/README.md)
 - inspect the [wiki](../wiki/README.md) if you want to understand domain-specific graph differences more deeply
