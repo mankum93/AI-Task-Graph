@@ -97,6 +97,17 @@ Use these after attaching the packet and generating the graph.
 
 ---
 
+## Packet provenance and version clarity
+
+The repo’s `packet/v08/` directory is a GitHub-friendly packet rendering, not a raw archive mirror.
+
+- [Packet v08](packet/v08/README.md)
+- [Provenance and version clarity](packet/v08/provenance.md)
+
+Use these to understand what the repo packet represents and how future packet upgrades should propagate into the repository.
+
+---
+
 ## What the framework can do
 
 - Build task graphs for writing, coding, research, diagram-heavy, and mixed-mode work
@@ -219,7 +230,8 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 │   └── v08/
 │       ├── README.md
 │       ├── core_packet.md
-│       └── domain_profiles.md
+│       ├── domain_profiles.md
+│       └── provenance.md
 ├── prompts/
 │   ├── README.md
 │   ├── generate-task-graph.md
@@ -271,6 +283,7 @@ The repo also includes a walkthrough-style wiki showing what graphs get generate
 - **README.md** — reading order, highlights, and routing notes for the unpacked packet
 - **core_packet.md** — the merged core packet in Markdown form, covering the guide, quick sheet, general standard, domain-handoff use, worker protocol, review doctrine, and prompt schemas
 - **domain_profiles.md** — the merged domain profiles for technical books, books/novels, coding, mathematics, and analytical work
+- **provenance.md** — packet rendering model, lineage explanation, and upgrade/propagation guidance
 
 ---
 
